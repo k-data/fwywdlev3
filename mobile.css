@@ -1,0 +1,95 @@
+@import url(reset.css);
+
+html {
+  font-size: 100%;
+}
+
+body {
+
+  font-family: "Noto Sans JP";
+  color: #384359;
+  font-size: 18px;
+}
+
+header {
+  font-family: "Noto Sans JP";
+  color: #384359;
+  font-size: 14px;
+}
+
+.container {
+
+  width: 1920px;
+  height: 10203px;
+
+}
+
+.header_content {
+  position:relative;
+  width: 900px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+header nav ul {
+  display: flex;
+  margin: 0px;
+}
+
+header nav ul li {
+  margin-left: 30px;
+  margin-top: 18px;
+}
+
+
+
+
+
+
+
+.logo {
+  position: absolute;
+  width: 128px;
+  height: 45.44px;
+  left: 360px;
+  top: 15px
+
+}
+
+.bottom{
+  position: absolute;
+  width: 244px;
+  height: 75px;
+  left: 1316px;
+  top: 0px
+
+}
+
+.header_list{
+  position: absolute;
+  width: 900px;
+  height: 52px;
+  left: 686px;
+  top: 12px;
+  display: flex;
+  margin-left: 30px;
+ 
+
+
+
+}
+/* hero1 */
+.relative{
+  position: relative;
+  width: 1920px;
+  height: 600px;
+  top: 0px;
+  
+  display: flex;
+  flex-wrap:wrap;
+
+}
