@@ -72,6 +72,10 @@
     margin-left: 300px;
   }
 
+  .xl_ml-200 {
+    margin-left: 200px;
+  }
+
   .xl-mx-auto {
     margin: 0 auto !important;
   }
@@ -92,7 +96,7 @@
     width: 600px;
   }
 
-  .xl_w-980 {
+  _l .xl_w-980 {
     width: 980px;
   }
 
