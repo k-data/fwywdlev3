@@ -196,6 +196,10 @@ body {
   margin-top: -60px;
 }
 
+.-mt-64 {
+  margin-top: -64px;
+}
+
 .-mt-30 {
   margin-top: -30px;
 }

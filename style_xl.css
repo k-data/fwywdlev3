@@ -73,11 +73,15 @@
   }
 
   .xl_ml-200 {
-    margin-left: 200px;
+    margin-left: 180px;
   }
 
   .xl-mx-auto {
     margin: 0 auto !important;
+  }
+
+  .xl_-mt-4 {
+    margin-top: -90px;
   }
 
   .xl_h-400 {
