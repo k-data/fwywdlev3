@@ -1,9 +1,4 @@
 @import url(reset.css);
-@media (max-width: 600px) {
-  html {
-    font-size: 87.5%;
-  }
-}
 
 html {
   font-size: 100%;
@@ -30,8 +25,13 @@ header {
   width: 1918px;
 }
 
+.logo_svg {
+  z-index: 20;
+  margin-left: 361px;
+}
+
 .header_content {
-  width: 900px;
+  width: px1920x;
   height: 77px;
   display: flex;
   align-items: center;
@@ -41,54 +41,54 @@ header {
 header nav ul {
   display: flex;
   margin: 0px;
-}
-
-header nav ul li {
-  margin-left: 30px;
-  margin-top: 18px;
+  align-items: center;
+  font-weight: bold;
 }
 
 .hero1box {
-  width: 1920px;
-  height: 600px;
   display: flex;
-  margin-bottom: 100px;
 }
 
 .left_content {
   width: 1046px;
   height: 601px;
   background-image: url(images/hero01_bg01.jpg);
+  z-index: 1;
 }
 
 .hero1logo {
-  margin-top: 187px;
   margin-left: 100px;
+  padding-bottom: 50px;
 }
 
-.txt {
-  margin-top: 238px;
-  text-align: center;
-  margin-bottom: 23.59px;
+header nav ul li {
+  margin-left: 30px;
+  margin-top: 18px;
+  padding-right: 4px;
+  border-right: 1px solid #384359;
+}
+
+.h1 {
+  margin-left: -210px;
 }
 
 .wrap {
-  margin-top: 360px;
-  width: 680px;
+  margin-top: 200px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
   font-size: 23px;
   font-weight: 700;
   color: #007979;
-  gap: 40px;
 
   margin-left: 200px;
 }
 
 .text {
   height: 150px;
-  margin-top: 52px;
+  margin-top: 60px;
   margin-bottom: 1px;
+  margin-right: 20px;
 
   text-align: center;
 }
@@ -105,18 +105,17 @@ header nav ul li {
 }
 
 .logo {
-  position: absolute;
   width: 128px;
   height: 45.44px;
-  left: 360px;
-  top: 15px;
+  text-align: center;
+  margin-top: 107px;
+  margin-left: 320px;
 }
 
 .bottom {
-  position: absolute;
   width: 244px;
   height: 75px;
-  left: 1316px;
+  margin-right: 360px;
 }
 
 .header_list {
@@ -207,6 +206,7 @@ header nav ul li {
 }
 
 .sol_head {
+  width: 1920px;
   height: 140px;
   background: linear-gradient(
     to bottom,
@@ -274,6 +274,10 @@ header nav ul li {
   margin-right: 75px;
 }
 
+#sol1_left_sm {
+  display: none;
+}
+
 .sol1txt {
   margin-top: 10px;
 }
@@ -282,6 +286,9 @@ header nav ul li {
   margin-top: 10px;
 }
 
+.sol1_arrow_sm {
+  display: none;
+}
 .sol1_right_read {
   font-size: 18px;
   font-weight: 700;
@@ -297,12 +304,13 @@ header nav ul li {
   height: 270px;
   display: flex;
   flex-flow: column;
+  flex-wrap: wrap;
   text-align: center;
 
   gap: 6px;
 }
 
-.sol1_bg {
+#sol1_bg {
   width: 450px;
   height: 110px;
   background-color: #f1f7f8;
@@ -310,7 +318,18 @@ header nav ul li {
   margin-right: 75px;
 }
 
-.sol1_bg p {
+@media screen and (max-width: 769px) {
+  .desktop {
+    display: none;
+  }
+  #sol1_bg {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+#sol1_bg p {
   font-size: 18px;
   font-weight: 700;
   color: #007979;
@@ -318,7 +337,7 @@ header nav ul li {
   margin-bottom: 30px;
 }
 
-.sol1_bg span {
+#sol1_bg span {
   font-size: 44px;
   font-weight: 700;
   color: #384359;
@@ -924,7 +943,7 @@ article {
 
 .copy {
   text-align: center;
-  margin-top: -70px;
+  margin-top: 70px;
   font-size: 24px;
   color: white;
 }

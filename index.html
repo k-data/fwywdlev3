@@ -1,588 +1,1236 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fwywd</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" media="screen and (max-width: 450px)" type="text/css" href="mobile.css"> -->
-</head>
-<body>
-    <!-- header -->
-    
-    <header class="top">
-        <div class="header_content">
-            <div class="logo">
-                <img src="images/logo.svg" class="logo_imag">
-            </div>
-            <nav class="header_list">
-                <ul>
-                    <li class="header_li"><a href="#">HOME</a></li>
-                    <li class="header_li"><a href="#">起業家育成</a></li>
-                    <li class="header_li"><a href="#">コンセプト</a></li>
-                    <li class="header_li"><a href="#">採用</a></li>
-                    <li class="header_li"><a href="#">ニュース</a></li>
-                    <li class="header_li"><a href="#">運営会社</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style_md.css" />
+    <link rel="stylesheet" href="style_lg.css" />
+    <link rel="stylesheet" href="style_xl.css" />
 
-                </ul>
-            </nav>
-            <div class="bottom"><img src="images/btn.png"></div>
+    <title>fwywd課題</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="lg_px-30 justify-between flex align-center px-0 ml-20 lg_ml-0 xl_max-w-1280 xl_m-auto"
+      >
+        <div>
+          <img src="images/logo.svg" alt="fwywd_logo" class="lg_w-150 w-100" />
         </div>
-    <section class="hero1">
-        <div class="hero1box">
-            <div class="left_content">
-                <div class="logo">
-                    <img src="images/logo.png" class="hero1logo">
-                </div>
-                <div class="txt">
-                    <img src="images/hero_txt_title_img_black.png" class="txt_black">
-                </div>
-                <div class="wrap">
-                    <p class="left_p">仕事を続けながら挑戦可能</p>
-                    <p class="x"> ×</p>
-                    
-                    <p class="left_p">新規事業のすべてが学べる</p>
-                    
-                </div>
-                
-                <div class="text">
-                    <p class="buret">＼ 現在１期で２８人が起業に挑戦中 ／</p>
-                    <img src="images/Component 1.png" class="botton1">
-                </div>
-
-                        
-                    
-               
-            </div>
-            <div class="rigth_content">
-                <img src="images/hero01_bg02.png" class="hero01_2">
-
-            </div>
-
+        <div>
+          <ul class="list-style-none font-bold hidden lg_flex">
+            <li class="border-right lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14">HOME</a>
+            </li>
+            <li class="border-right lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14"
+                >起業家育成</a
+              >
+            </li>
+            <li class="border-right lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14"
+                >コンセプト</a
+              >
+            </li>
+            <li class="border-right lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14">採用</a>
+            </li>
+            <li class="border-right lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14"
+                >ニュース</a
+              >
+            </li>
+            <li class="lg_px-20">
+              <a href="#" class="text-black decoration-none lg_text-14"
+                >運営会社</a
+              >
+            </li>
+          </ul>
         </div>
-    </section>
-    <section class="synpmathy">
-        <div class="synpmathy_bg">
-            <div class="sy_content">
-                <h2 class="synpmathy_h2"><span>起業</span>は選ばれし一握りの人の挑戦だと思っていませんか。</h2>
-                <p class="p1">アントレプレナーシップ</p>
-                <p class="p2">いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。<br>
-                    市場の課題を調査して、解決するプロダクトを開発して<br>
-                    ビジネスとして普及させることができる人材になることが<br>
-                    独立の有無は問わず求められる時代が来ます。
+        <div>
+          <a
+            href="/"
+            class="flex bg-primary text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 text-11 align-center"
+            ><img src="images/Polygon .png" />無料説明会へ申し込み</a
+          >
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="md_hidden">
+        <div class="bg_hero_1 pb-50">
+          <div class="grid justify-center pt-30 gap-y-20">
+            <img src="images/logo_sp.png" alt="logo" class="w-70 m-auto" />
+            <div class="grid gap-y-20">
+              <p class="text-center">
+                <img
+                  src="images/hero01_txt_title_img_sp.png"
+                  alt="起業を目指す人のための最高の環境"
+                  class="w-350"
+                />
+              </p>
+              <div
+                class="flex text-primary text-12 font-bold justify-center gap-x-10"
+              >
+                <p>仕事をしながら挑戦可能</p>
+                <img src="images/icon_hero_x_sp.png" alt="x" />
+                <p>新規事業のすべてが学べる</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid justify-center py-15">
+          <div class="text-primary text-10 font-bold text-center">
+            ＼ 現在１期で２８人が起業に挑戦中 ／
+          </div>
+          <div
+            class="flex bg-gradation text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 text-11 align-center w-200 radius-4"
+          >
+            <img src="images/Polygon .png" />
+            <a href="/">無料説明会へ申し込み</a>
+          </div>
+        </div>
+        <div class="w-full">
+          <img src="images/hero01_02_sp.png" alt="" class="w-full" />
+        </div>
+      </div>
+      <div class="hidden md_block xl_hidden">
+        <div class="md_bg_hero_1 md_h-400 md_pt-100">
+          <div class="grid justify-center gap-y-20">
+            <img src="images/logo_sp.png" alt="logo" class="md_w-150 m-auto" />
+            <div class="grid gap-y-20">
+              <p class="text-center">
+                <img
+                  src="images/hero01_txt_title_img_sp.png"
+                  alt="起業を目指す人のための最高の環境"
+                  class="md_w-600"
+                />
+              </p>
+              <div
+                class="flex text-primary md_text-18 font-bold justify-center gap-x-10"
+              >
+                <p>仕事をしながら挑戦可能</p>
+                <img src="images/icon_hero_x.png" alt="x" />
+                <p>新規事業のすべてが学べる</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid justify-center py-15">
+            <div class="text-primary md_text-14 font-bold text-center">
+              ＼ 現在１期で２８人が起業に挑戦中 ／
+            </div>
+            <div
+              class="flex bg-gradation text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 text-11 align-center md_w-280 radius-4"
+            >
+              <img src="images/Polygon .png" class="md_ml-40" />
+              <a href="/">無料説明会へ申し込み</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden xl_block">
+        <div class="xl_hero_bg xl_w-max">
+          <div class="md_bg_hero_1 xl_h-full xl_py-100">
+            <div class="grid justify-center gap-y-20">
+              <img
+                src="images/logo_sp.png"
+                alt="logo"
+                class="md_w-150 m-auto"
+              />
+              <div class="grid gap-y-20">
+                <p class="text-center">
+                  <img
+                    src="images/hero01_txt_title_img_sp.png"
+                    alt="起業を目指す人のための最高の環境"
+                    class="md_w-600"
+                  />
                 </p>
-                <p class="p3">これからの時代に求められる人材とは？</p>
-                <img src="images/sy_line.png" class="sy_line">
+                <div
+                  class="flex text-primary lg_text-24 font-bold justify-center gap-x-10"
+                >
+                  <p>仕事をしながら挑戦可能</p>
+                  <img src="images/icon_hero_x.png" alt="x" />
+                  <p>新規事業のすべてが学べる</p>
+                </div>
+              </div>
             </div>
-            <div class="sy_right">
-                <img src="images/sympathy.png" class="sy_img">
+            <div class="grid justify-center py-15">
+              <div class="text-primary md_text-14 font-bold text-center">
+                ＼ 現在１期で２８人が起業に挑戦中 ／
+              </div>
+              <div
+                class="flex bg-gradation text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 text-11 align-center md_w-280 radius-4"
+              >
+                <img src="images/Polygon .png" class="md_ml-40" />
+                <a href="/">無料説明会へ申し込み</a>
+              </div>
             </div>
+          </div>
+          <div>
+            <img src="images/hero01_bg02_lg.png" alt="" />
+          </div>
         </div>
+      </div>
     </section>
-    <section class="solution1">
-    
-        <div class="sol_head">
-            <p>よくある誤解</p>
-            <img src="images/01.png" class="sol101">
+    <section>
+      <div
+        class="bg-primary-50 px-20 pt-50 pd-250 lg_w-90p lg_grid lg_pb-50 lg_px-100 lg_gap-x-20 xl_w-max-1440"
+      >
+        <div class="grid gap-y-20 lg_grid-row-50p xl_max-w-900 xl-mx-auto">
+          <p class="text-primary font-bold text-20">
+            <span class="text-32">起業</span>は選ばれし一握りの人の<br
+              class="md_hidden"
+            />挑戦だと思っていませんか。
+          </p>
+          <div class="relative">
+            <p class="absolute text-primary font-bold text-10 -top-12 left-80">
+              アントレプレナーシップ
+            </p>
+            <p class="text-black font-medium">
+              いま日本では起業家精神を持った人材の育成に国を挙げて取り組んでいます。
+              市場の課題を調査して、解決するプロダクトを開発してビジネスとして普及させることができる人材になることが独立の有無は問わず求められる時代が来ます。
+            </p>
+          </div>
+          <div class="grid justify-center relative">
+            <p class="text-primary font-bold text-18">
+              これからの時代に求められる人材とは？
+            </p>
+            <img src="images/line.png" alt="line" />
+          </div>
         </div>
-        <div class="main1">
-            <h2 class="sol1_head"><span>「起業する = 独立」</span>だけではない</h2>
-            <!-- 白線必要！ -->
-            <div class="main_content">
-                <div class="sol1_leftimg">
-                    <img src="images/solution1_main_img01.png" class="sol1_left">
-                </div>
-                <div class="sol1_right">
-                    <div class="sol1_text">
-                        <p class="sol1_right_read">社会課題を見つけて<span>「作る」</span>と<span>「売る」</span>の両者に<br>
-                            <span>「戦略」</span>を持って解決できる<br>
-                            <span>起業家精神</span>のある人材がいま市場から求められています
-                        </p>
-                        <div class="sol1_arrow">
-                            <img src="images/icon_arrow.png" class="sol1_arrow">
-                        </div>
-                        <div class="sol1txt">
-                            <img src="images/Group 7.png" class="sol1txt">
-                        </div>
-                    </div>
-
-                    <div class="sol1_body">
-                        <div class="sol1_bg">
-                            <p>企業内での新規事業立ち上げ<br>
-                               <span>起業家</span>
-                            </p>
-                        
-                        </div>
-                        <div class="or">
-                            <p>or</p>
-                        </div>
-                        <div class="sol1_bg">
-                            <p>企業内での新規事業立ち上げ<br>
-                               <span>企業家</span>
-                            </p>
-                        
-                        </div>
-                        <div class="sol1_human">
-                            <div class="human1">
-                                <img src="images/solution1_main_img02.png" class="human1">
-                            </div>
-                            <div class="human2">
-                                <img src="images/solution1_main_img03.png" class="human2">
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="main1_end">
-                <p>fwywd ではこの人材としての<span class="gradation">市場価値</span>が高く、<br>
-                    これからの<span class="gradation">日本や世界の課題を解決できる人材</span>の輩出を目指します。
-                </p>    
-            </div>
-            <div class="bg_arrow">
-            </div>
-            <div class="sol1_summary">
-                <img src="images/summary.png" class="summary">
-
-            </div>
+        <div class="lg_grid-row-50p relative">
+          <div>
+            <img
+              src="images/sympathy.png"
+              alt=""
+              class="w-300 xl_w-full absolute left-50p -transform-x-50p lg_relative lg_top-50"
+            />
+          </div>
         </div>
+      </div>
     </section>
-    <section class="solution2">
-    
-        <div class="sol_head">
-            <p>よくある誤解</p>
-            <img src="images/02.png" class="sol202">
+    <sention>
+      <div class="bg-primary-50 mt-120 px-20 grid justify-center md_hidden">
+        <div class="text-center">
+          <p class="text-primary text-12 -mt-50">よくある誤解</p>
+          <img src="images/01_sp.png" alt="01" class="" />
         </div>
-        <div class="main2">
-            <h2 class="sol1_head"><span>「教わるだけ」の人材</span>は 逆に<span>価値が低い</span></h2>
-            <!-- 白線必要！ -->
-            <div class="main_content">
-                <div class="sol1_leftimg">
-                    <img src="images/solution2_main_img01.png" class="sol1_left">
-                </div>
-                <div class="sol1_right">
-                    <div class="sol1_text">
-                        <p class="sol1_right_read"><span>自立した学び</span>が必要な時代になっており、<br>
-                            いくら能力が獲得できていても<br>
-                            能動的な学びができないと<span>需要</span>が低くなっている
-                        </p>
-                        </p>
-                        <div class="sol1_arrow">
-                            <img src="images/icon_arrow.png" class="sol1_arrow">
-                        </div>
-                        <div class="sol1txt">
-                            <img src="images/Group 8.png" class="sol1txt">
-                        </div>
-                    </div>
-
-                    <div class="sol1_body">
-                        <div class="sol1_bg">
-                            <p>企業に必要な<br>
-                               <span>能力</span><span class="sub">（結果）</span>
-                            </p>
-                        
-                        </div>
-                        <div class="or">
-                            <p>×</p>
-                        </div>
-                        <div class="sol1_bg">
-                            <p>新しいことの<br>
-                               <span>学び方</span><span class="sub">（過程）</span> 
-                            </p>
-                        
-                        </div>
-                        <div class="sol2_img">
-                            <div class="sol2_img1">
-                                <img src="images/solution2_main_img02.png" class="img1">
-                            </div>
-                            <div class="sol2_img2">
-                                <img src="images/solution2_main_img03.png" class="img2">
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
-            <div class="bg_arrow2">
-            </div>
-            <div class="solution2_summary">
-                <div class="sol2_summary_right">
-                    <p>fwywd では<span class="gradation">能力獲得の過程</span>へもこだわり、<br>
-                        講師から教わる授業のような時間は設けていません
-                    </p>
-                    <img src="images/solution2_summary_tmb01.png" class="sol2_summary_img">
-                </div>
-                <div class="sol2_arrow">
-                  <img src="images/sol2icon_arrow.png" class="arrow">
-                </div>
-                <div class="sol2_summary_right">
-                    <p>ハードルの高い課題に挑戦してクリアすることで<br>
-                        調べて解決する<span class="gradation">自立した力</span>を付けられます
-                    </p>
-                    <img src="images/solution2_summary_tmb02.png" class="sol2_summary_img">
-                </div>
-            </div>
-
-           
+        <div class="mt-50 grid text-center w-375">
+          <img src="images/line_white.png" alt="" class="w-300 m-auto" />
+          <p class="text-black font-bold text-24 -mt-30">
+            <span class="text-primary">「起業する＝独立」</span>だけではない
+          </p>
         </div>
-    </section>
-    <section class="hero2">
-        <div class="hero2_content">
-            <img src="images/hero02_bg.png" class="hero2">
-            <div class="txt">
-                <div class="hero2_head">
-                  <img src="images/logo_white.png" class="hero2logo">
-                  <h2>　　　　なら<br>
-                    ユーザー主体の<span>コミュニティ</span>により<br>
-                    <span>能動的な学び</span>を保証！
-                  </h2>
-
+        <div class="grid justify-center gap-y-50">
+          <div class="mt-40 text-center">
+            <img
+              src="images/solution1_main_img01_sp.png"
+              alt="main_img"
+              class="w-350"
+            />
+          </div>
+          <div
+            class="bg-primary-white w-350 text-center px-16 pt-30 radius-4 pb-50"
+          >
+            <p class="text-12 text-black font-bold">
+              社会課題を見つけて<span class="text-primary">「作る」</span
+              >と<span class="text-primary">「売る」</span>の両者に<br />
+              <span class="text-primary">「戦略」</span>を持って解決できる<br />
+              <span class="text-primary">起業家精神</span
+              >のある人材がいま市場から求められています
+            </p>
+            <img src="images/icon_arrow_sm.png" alt="arrow" class="mt-20" />
+            <div>
+              <img src="images/yellow_line_sp.png" alt="" class="w-240" />
+              <p class="text-black text-14 font-bold -mt-16">
+                ＼ 挑戦しないことがリスクになる時代 ／
+              </p>
+            </div>
+            <div class="grid justify-center gap-y-10">
+              <div class="bg-primary-50 w-260 py-10 mt-10 relative">
+                <p class="text-primary text-10 font-bold">
+                  新しいチームを組成して独立
+                </p>
+                <p class="text-black text-24 font-bold">起業家</p>
+              </div>
+              <img src="images/or_sp.png" alt="" class="m-auto" />
+              <div class="bg-primary-50 w-260 py-10">
+                <p class="text-primary text-10 font-bold">
+                  新しいチームを組成して独立
+                </p>
+                <p class="text-black text-24 font-bold">企業家</p>
+              </div>
+              <div class="flex justify-between absolute w-300">
+                <div>
+                  <img src="images/solution1_main_img02_sp.png" alt="" />
                 </div>
-                <div class="hero2_body">
-                  <p>ハードルの高い課題への挑戦のデメリットは<br>
-                    多くのケースが挫折してしまうこと<br>
-                    fwywd では志の高い良き仲間との支え合いで<br>
-                    モチベーションを維持！
+                <div>
+                  <img src="images/solution1_main_img03_sp.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-black font-bold text-18 text-center mt-50 px-16">
+          fwywd ではこの人材としての<br />
+          <span class="text-gradation">市場価値</span>が高く、<br />
+          これからの<span class="text-gradation"
+            >日本や世界の課題を解決できる人材</span
+          >の輩出を目指します。
+        </p>
+      </div>
+      <div class="text-center md_hidden">
+        <img src="images/bg_arrow_sp.png" alt="" class="w-full md_hidden" />
+        <img src="images/summary1_sp.png" alt="" / class="w-375 mt-20
+        md_hidden">
+      </div>
+      <div class="hidden md_block">
+        <div
+          class="hidden bg-primary-50 mt-120 px-10 grid justify-center md_block pt-30 xl_px-50 xl_w-max-1440"
+        >
+          <div class="text-center">
+            <div class="md_-mt-80">
+              <p class="text-primary md_text-18">よくある誤解</p>
+              <img src="images/01.png" alt="01" class="" />
+            </div>
+          </div>
+          <div class="md_mt-50 grid text-center md_w-full">
+            <img src="images/line_white.png" alt="" class="md_w-500 m-auto" />
+            <p class="text-black font-bold md_text-32 -mt-30">
+              <span class="text-primary">「起業する＝独立」</span>だけではない
+            </p>
+          </div>
+          <div class="flex justify-between gap-y-50 md_mt-50 px-20">
+            <div class="mt-40 text-center">
+              <img
+                src="images/solution1_main_img01_sp.png"
+                alt="main_img"
+                class="w-350 lg_hidden"
+              />
+              <img
+                src="images/solution1_main_img01.png"
+                alt="main"
+                class="hidden lg_block lg_w-450"
+              />
+            </div>
+            <div
+              class="bg-primary-white md_w-500 xl_w-600 text-center px-16 pt-30 radius-4 pb-50"
+            >
+              <p class="md_text-14 text-black font-bold">
+                社会課題を見つけて<span class="text-primary">「作る」</span
+                >と<span class="text-primary">「売る」</span>の両者に<br />
+                <span class="text-primary">「戦略」</span
+                >を持って解決できる<br />
+                <span class="text-primary">起業家精神</span
+                >のある人材がいま市場から求められています
+              </p>
+              <img
+                src="images/icon_arrow_sm.png"
+                alt="arrow"
+                class="mt-10 md_pb-20"
+              />
+              <div>
+                <img src="images/yellow_line_sp.png" alt="" class="md_w-350" />
+                <p class="text-black md_text-18 font-bold md_-mt-22">
+                  ＼ 挑戦しないことがリスクになる時代 ／
+                </p>
+              </div>
+              <div class="grid justify-center gap-y-10">
+                <div class="bg-primary-50 md_w-350 lg_w-max-450 py-10 mt-10">
+                  <p class="text-primary md_text-14 font-bold">
+                    企業内での新規事業立ち上げ
                   </p>
-
+                  <p class="text-black md_text-32 font-bold">起業家</p>
                 </div>
-                <div class="hero2_end">
-                  <p>＼ 実際の fwywd ユーザーの声を聞けば絶対に納得 ／</p>
-                  <img src="images/Component 3.png" class="hero2_botton">
-                    
+                <img src="images/or.svg" alt="" class="m-auto" />
+                <div class="bg-primary-50 md_w-350 lg_w-max-450 py-10">
+                  <p class="text-primary md_text-14 font-bold">
+                    企業内での新規事業立ち上げ
+                  </p>
+                  <p class="text-black md_text-32 font-bold">企業家</p>
                 </div>
+                <div
+                  class="flex justify-between md_w-350 md_-mt-200 xl_left-60p"
+                >
+                  <div>
+                    <img
+                      src="images/solution1_main_img02.png"
+                      alt=""
+                      class="md_h-70p lg_h-full"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="images/solution1_main_img03.png"
+                      alt=""
+                      class="md_h-70p lg_h-full"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <p
+            class="text-black font-bold md_text-20 text-center mt-50 px-16 lg_hidden"
+          >
+            fwywd ではこの人材としての<br />
+            <span class="text-gradation">市場価値</span>が高く、<br />
+            これからの<span class="text-gradation"
+              >日本や世界の課題を解決できる人材</span
+            >の輩出を目指します。
+          </p>
+          <p
+            class="text-black font-bold lg_text-24 text-center mt-100 px-16 hidden lg_block"
+          >
+            fwywd ではこの人材としての<br />
+            <span class="text-gradation">市場価値</span>が高く、<br />
+            これからの<span class="text-gradation"
+              >日本や世界の課題を解決できる人材</span
+            >の輩出を目指します。
+          </p>
         </div>
-        
-    </section>
-    <section class="different">
-      <div class="different_container">
-        <div class="diff_head">
-          <p>差別化ポイント</p>
-          <h2>fwywd を選ぶ理由</h2>
-          <img src="images/under_line.png" class="under_line">
+        <div class="text-center xl_w-max-1440">
+          <img
+            src="images/bg_arrow_sp.png"
+            alt=""
+            class="w-full hidden md_block xl_w-max-1440"
+          />
+          <img
+            src="images/summary1.png"
+            alt=""
+            class="md_mt-50 md_w-600 lg_w-full xl_w-max-1440"
+          />
         </div>
-        <div class="diff_container">
-          <div class="diff_content">
-            <img src="images/point01.png" class="point1">
-            <h2>起業に必要な実践的なカリキュラム</h2>
-            <p>最も能力の獲得に時間を要する技術のプロダクト<br>
-              開発を中心に１年間の学びを進めます。<br>
-              その中にも、市場の需要を調査するマーケティング<br>
-              視点や、そのプロダクトでの解決策をビジネスに<br>
-              落とし込んだ時の良し悪しを測るファイナンス視<br>
-              点なども同時に学びます。
-            </p>
-
+      </div>
+    </sention>
+    <sention>
+      <div class="bg-primary-50 mt-120 px-20 grid justify-center md_hidden">
+        <div class="text-center">
+          <p class="text-primary text-12 -mt-50">よくある誤解</p>
+          <img src="images/02_sp.png" alt="02" class="" />
+        </div>
+        <div class="mt-50 grid justify-center w-375">
+          <img
+            src="images/line_white.png"
+            alt=""
+            class="w-200 mt-40 text-center"
+          />
+          <p class="text-black font-bold text-24 -mt-50 text-center">
+            <span class="text-primary">教わるだけの人材 </span>は<br
+              class="md_hidden"
+            />
+            逆に<span class="text-primary">価値が低い</span>
+          </p>
+        </div>
+        <div class="grid justify-center gap-y-50">
+          <div class="mt-40 text-center">
+            <img
+              src="images/solution2_main_img01_sp.png"
+              alt="main_img"
+              class="w-350"
+            />
           </div>
-          <div class="diff_content">
-            <img src="images/point02.png" class="point2">
-            <h2>学び手が主体のコミュニケーション</h2>
-            <p>良き仲間との学びがモチベーションを高めます。<br>
-              また課題がわからずに躓いたときには仲間と一緒<br>
-              に課題解決ができます。<br>
-              その結果、自立して能動的に取り組める人材であ<br>
-              ることが証明されます。
+          <div
+            class="bg-primary-white w-350 text-center px-16 pt-30 radius-4 pb-50"
+          >
+            <p class="text-12 text-black font-bold">
+              <span class="text-primary">自立した学び</span
+              >が必要な時代になっており、<br />
+              いくら能力が獲得できていても 能動的な学びができないと<br /><span
+                class="text-primary"
+                >需要</span
+              >が低くなっている
             </p>
-
+            <img src="images/icon_arrow_sm.png" alt="arrow" class="mt-20" />
+            <div>
+              <img src="images/yellow_line_sp.png" alt="" class="w-240" />
+              <p class="text-black text-14 font-bold -mt-16">
+                ＼これからは能力獲得の過程も注目される時代／
+              </p>
+            </div>
+            <div class="grid justify-center gap-y-10">
+              <div class="bg-primary-50 w-260 py-10 mt-10 relative">
+                <p class="text-primary text-10 font-bold">企業に必要な</p>
+                <p class="text-black text-24 font-bold">
+                  能力<span class="text-18">(結果)</span>
+                </p>
+              </div>
+              <img src="images/or_sp.png" alt="" class="m-auto" />
+              <div class="bg-primary-50 w-260 py-10">
+                <p class="text-primary text-10 font-bold">新しいことの</p>
+                <p class="text-black text-24 font-bold">
+                  学び方<span class="text-18">(過程)</span>
+                </p>
+              </div>
+              <div class="grid justify-between absolute w-300 h-200 left-70p">
+                <div>
+                  <img src="images/solution2_main_img02_sp.png" alt="" />
+                </div>
+                <div>
+                  <img src="images/solution2_main_img03_sp.png" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="diff_content">
-            <img src="images/point03.png" class="point3">
-            <h2>質の高い人のみが所属</h2>
-            <p>fwywd では入学試験が設けられており、課題に対<br>
-              する取り組む意欲が低い人は脱落します。<br>
-              一見ハードルが高く感じますが、この施策により<br>
-              「やらないのが当たり前」から「やって当たり<br>
-              前」という向上心の高い文化ができ、学びの質が<br>
-              劇的に高まります。<br>
-              ※ 入学試験以降も最初の１年間は各課題に対する<br>
-              提出期限が設けられています。
+        </div>
+      </div>
+      <div class="text-center md_hidden">
+        <img src="images/bg_arrow_sp.png" alt="" class="w-full md_hidden" />
+      </div>
+      <div class="grid justify-center gap-y-20 pb-50 md_hidden">
+        <div>
+          <p class="font-bold text-18 text-black mt-20">
+            fwywd では<span class="text-gradation">能力獲得の過程</span
+            >へもこだわ<br />り、講師から教わる授業のような時間は設けていません
+          </p>
+          <img src="images/solution2_summary_tmb01_sp.png" alt="" />
+        </div>
+        <div class="text-center">
+          <img src="images/icon_arrow_under_sp.png" alt="arrow" />
+        </div>
+        <div>
+          <p class="font-bold text-18 text-black mt-20">
+            ハードルの高い課題に挑戦してクリアする<br />ことで調べて解決する<span
+              class="text-gradation"
+              >自立した力</span
+            >を付けられます
+          </p>
+          <img src="images/solution2_summary_tmb02_sp.png" alt="" />
+        </div>
+      </div>
+      <div class="hidden md_block">
+        <div
+          class="hidden bg-primary-50 mt-120 md_px-10 grid justify-center md_block pt-30 xl_px-50 xl_w-max-1440"
+        >
+          <div class="text-center">
+            <div class="md_-mt-90">
+              <p class="text-primary md_text-18">よくある誤解</p>
+              <img src="images/02.png" alt="02" class="md_w-140" />
+            </div>
+          </div>
+          <div class="md_mt-50 grid justify-center md_w-full">
+            <img src="images/line_white.png" alt="" class="md_w-600 md_mt-40" />
+            <p class="text-black font-bold md_text-32 -mt-30">
+              <span class="text-gradation">「教わるだけ」の人材</span>は
+              逆に<span class="text-gradation">価値が低い</span>
             </p>
           </div>
-          <div class="diff_content">
-            <img src="images/point04.png" class="point4">
-            <h2>１年間で終わりではない</h2>
-            <p>起業に必要な能力やマインドセットを獲得できた<br>
-              １年後からがスタート。<br>
-              能力の高い人同士で新たな学びやプロジェクトを<br>
-              スタートさせることができます。
-            </p>
-
+          <div class="flex justify-between gap-y-50 md_mt-50 md_px-10">
+            <div class="mt-40 text-center">
+              <img
+                src="images/solution2_main_img01_sp.png"
+                alt="main_img"
+                class="w-350 lg_hidden"
+              />
+              <img
+                src="images/solution2_main_img01.png"
+                alt="main"
+                class="hidden lg_block lg_w-450"
+              />
+            </div>
+            <div
+              class="bg-primary-white md_w-500 xl_w-600 text-center md_px-10 pt-30 radius-4 pb-50"
+            >
+              <p class="md_text-14 text-black font-bold">
+                <span class="text-gradation">自立した学び</span
+                >が必要な時代になっており、<br />
+                いくら能力が獲得できていても<br />
+                能動的な学びができないと<span class="text-primary">需要</span
+                >が低くなっている
+              </p>
+              <img
+                src="images/icon_arrow_sm.png"
+                alt="arrow"
+                class="mt-10 md_pb-20"
+              />
+              <div class="md_py-10">
+                <img src="images/yellow_line_sp.png" alt="" class="md_w-350" />
+                <p class="text-black md_text-16 font-bold md_-mt-22">
+                  ＼これからは能力獲得の過程も注目される時代／
+                </p>
+              </div>
+              <div class="grid justify-center gap-y-10">
+                <div
+                  class="bg-primary-50 md_w-350 lg_w-max-450 py-10 mt-10 m-auto"
+                >
+                  <p class="text-primary md_text-14 font-bold">企業に必要な</p>
+                  <p class="text-black md_text-32 font-bold">
+                    能力<span class="md_text-24">(結果)</span>
+                  </p>
+                </div>
+                <img src="images/icon_solution2_x.svg" alt="" class="m-auto" />
+                <div class="bg-primary-50 md_w-350 lg_w-max-450 py-10 m-auto">
+                  <p class="text-primary md_text-14 font-bold">新しいことの</p>
+                  <p class="text-black md_text-32 font-bold">
+                    学び方<span class="md_text-24">(過程)</span>
+                  </p>
+                </div>
+                <div class="grid justify-between md_w-500 md_-mt-200">
+                  <div class="md_ml-350">
+                    <img
+                      src="images/solution2_main_img02.png"
+                      alt=""
+                      class="md_h-70p lg_h-full"
+                    />
+                  </div>
+                  <div class="md_ml-350">
+                    <img
+                      src="images/solution2_main_img03.png"
+                      alt=""
+                      class="md_h-70p lg_h-full"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="diff_content">
-            <img src="images/point05.png" class="point5">
-            <h2>仕事を続けながら取り組める</h2>
-            <p>起業家精神を学ぶことが目的であり、独立は１つ<br>
-              の手段でしかありません。<br>
-              この学びは企業勤めの方の今の仕事へも良い影響<br>
-              が見込めるため、現状の仕事を続けながらを
-              推奨しており、多くの人が参加できる条件です。
+        </div>
+        <div class="text-center">
+          <img
+            src="images/bg_arrow_sp.png"
+            alt=""
+            class="w-full hidden md_block xl_w-max-1440"
+          />
+        </div>
+        <div
+          class="md_flex justify-center align-center md_gap-x-10 md_py-50 md_px-10 xl_hidden"
+        >
+          <div>
+            <p class="md_text-16 font-bold">
+              fwywd では<span class="text-gradation">能力獲得の過程</span
+              >へもこだわり、<br />
+              講師から教わる授業のような時間は設けていません
             </p>
-
-
+            <img src="images/solution2_summary_tmb01_sp.png" alt="" />
+          </div>
+          <div>
+            <img src="images/sol2icon_arrow.png" alt="" class="md_w-50" />
+          </div>
+          <div>
+            <p class="md_text-16 font-bold">
+              ハードルの高い課題に挑戦してクリアすることで<br />
+              調べて解決する<span class="text-gradation">自立した力</span
+              >を付けられます
+            </p>
+            <img src="images/solution2_summary_tmb02_sp.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="hidden xl_flex justify-center align-center xl_gap-x-20 xl_block xl_w-max"
+        >
+          <div>
+            <p class="xl_text-24 font-bold">
+              fwywd では<span class="text-gradation">能力獲得の過程</span
+              >へもこだわり、<br />
+              講師から教わる授業のような時間は設けていません
+            </p>
+            <img src="images/solution2_summary_tmb01.png" alt="" />
+          </div>
+          <div>
+            <img src="images/sol2icon_arrow.png" alt="" />
+          </div>
+          <div>
+            <p class="xl_text-24 font-bold">
+              ハードルの高い課題に挑戦してクリアすることで<br />
+              調べて解決する<span class="text-gradation">自立した力</span
+              >を付けられます
+            </p>
+            <img src="images/solution2_summary_tmb02.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </sention>
+    <section>
+  
+      <div class="bg_hero_3 mt-50 h-550 m-auto px-10  lg_hidden">
+       
+          <div class="grid justify-center mt-50 gap-y-40">
+            <div class="ml-80 mt-100"></div>
+            <div class="-mt-22 grid">
+              <img src="images/logo_white_sp.png" alt="hero" class="ml-30p" />
+              <p class="text-white text-center text-20 font-bold -mt-22">
+                　　　　なら<br />
+                ユーザー主体の<span class="bg-gradation">コミュニティ</span
+                >により<br />
+                <span class="bg-gradation">能動的な学び</span>を保証！
+              </p>
+            </div>
+            <div>
+              <p class="text-white text-18 font-bold text-center">
+                ハードルの高い課題への挑戦のデメリットは<br />
+                多くのケースが挫折してしまうこと<br />
+                fwywd では志の高い良き仲間との支え合いで<br />
+                モチベーションを維持！
+              </p>
+            </div>
+            <div class="grid justify-center -mt-34">
+              <div class="text-white font-bold md_text-14 text-center mt-50">
+                ＼ 実際の fwywd ユーザーの声を聞けば絶対に納得 ／
+              </div>
+              <div
+                class="flex justify-center bg-gradation text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 md_text-18 align-center radius-4 w-280 m-auto"
+              >
+                <img src="images/Polygon .png" />
+                <a href="/">無料説明会へ申し込み</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg_bg_hero_3 mt-50 m-auto px-10  hidden lg_block lg_w-full">
+       
+        <div class="grid justify-center mt-50 lg_gap-xy-20">
+          <div class="ml-80 mt-100"></div>
+          <div class="-mt-22 grid">
+            <img src="images/logo_white_sp.png" alt="hero" class="ml-30p lg_w-200 lg_ml-100" />
+            <p class="text-white text-center text-20 font-bold -mt-22 lg_text-32 lg_line-heihgt-150p">
+              　　　　なら<br />
+              ユーザー主体の<span class="bg-gradation">コミュニティ</span
+              >により<br />
+              <span class="bg-gradation">能動的な学び</span>を保証！
+            </p>
+          </div>
+          <div>
+            <p class="text-white text-18 font-bold text-center">
+              ハードルの高い課題への挑戦のデメリットは<br />
+              多くのケースが挫折してしまうこと<br />
+              fwywd では志の高い良き仲間との支え合いで<br />
+              モチベーションを維持！
+            </p>
+          </div>
+          <div class="grid justify-center -mt-34">
+            <div class="text-white font-bold md_text-14 text-center mt-50">
+              ＼ 実際の fwywd ユーザーの声を聞けば絶対に納得 ／
+            </div>
+            <div
+              class="flex justify-center bg-gradation text-white font-bold gap-x-10 lg_py-30 lg_px-40 btn-hover decoration-none px-20 py-15 md_text-18 align-center radius-4 w-280 m-auto"
+            >
+              <img src="images/Polygon .png" />
+              <a href="/">無料説明会へ申し込み</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="user_voice">
-      <div class="user_voice_bg">
-        <img src="images/uservoice_bg.png" class="userbg">
-        <div class="user_main">
-            <div class="diff_head">
-                <h2>ユーザーの声</h2>
-                <img src="images/under_line.png" class="under_line">
-            </div>
-            <div class="user_container">
-                <div class="user_content">
-                    <div class="bg">
-                        <img src="images/article1.png" class="art__bg">
-                    </div>
-                    <div class="article__tx">
-                        <h2 class="h2__1"><span class="gradation">人生の転機</span>になっています</h2>
-                        <article>サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああ
-
-                        </article>
-                        
-                    
-                    </div>
-                    
-                    <!-- <img src="images/article1.png" class="user_frame"> -->
-                        
-                </div>
-                <div class="user_content">
-                    <div class="bg">
-                        <img src="images/article2.png" class="art__bg">
-                    </div>
-                    <div class="article__tx">
-                        <h2>受講の理由は<span class="gradation">〇〇</span>が最大のポイントです</h2>
-                        <article>サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああ
-
-                        </article>
-                    </div>
-                        
-                
-                </div>
-                <div class="user_content">
-                    <div class="bg">
-                        <img src="images/article3.png" class="art__bg">
-                    </div>
-                    <div class="article__tx">
-                        <h2>fwywd を受講してから<br>ストレスなく<span class="gradation">〇〇できる</span>ようになりました！</h2>
-                        <article>サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああ
-
-                        </article>
-                    </div>    
-                </div>
-                    
-                <div class="user_content">
-                    <div class="bg">
-                        <img src="images/article4.png" class="art__bg">
-                    </div>
-                    <div class="article__tx">
-                        <h2 class="h2__2">心が折れそうな学習量も<br><span class="gradation">仲間と一緒</span>だから頑張れます</h2>
-                        <article>サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああサンプルテキストああ<br>
-                            サンプルテキストああサンプルテキストああ
-
-                        </article>
-                    </div>    
-                
-                    
-                        
-            
-                </div>
-            </div>
+    <section>
+      <div class="bg-primary-50 px-20">
+        <div class="grid gap-y-10 justify-center">
+          <p class="text-primary text-12 font-bold text-center mt-50">差別化ポイント</p>
+          <p class="text-black text-24 font-bold text-center">fwywd を選ぶ理由</p>
+          <img src="images/line_read_sp.png" alt="line" class="m-auto">
         </div>
+        <div class="grid mt-50  justify-center px-20 gap-y-40 lg_flex lg_wrap lg_gap-x-20 lg_gap-xy-20">
+          <div class="bg-primary-white radius-15 w-max h-400 lg_h-500 ">
+            <img src="images/difference_tmb01_sp.png" alt="" class="w-full">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-16 font-bold">起業に必要な実践的なカリキュラム</p>
+              <img src="images/primary-line-sp.png" alt="" class="w-90p">
+              <p class="text-black text-14 font-medium pr-24 line-height">最も能力の獲得に時間を要する技術のプロダクト開発を中心に１年間の学びを進めます。<br>
+                その中にも、市場の需要を調査するマーケティング視点や、そのプロダクトでの解決策をビジネスに落とし込んだ時の良し悪しを測るファイナンス視点なども同時に学びます。</p>
+            </div>
+          </div>
+          <div class="bg-primary-white radius-15 w-max h-400 lg_h-500">
+            <img src="images/difference_tmb02_sp.png" alt="" class="w-full">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-16 font-bold">学び手が主体のコミュニケーション</p>
+              <img src="images/primary-line-sp.png" alt="" class="w-90p">
+              <p class="text-black text-14 font-medium pr-24 line-height">
+                良き仲間との学びがモチベーションを高めます。また課題がわからずに躓いたときには仲間と一緒に課題解決ができます。その結果、自立して能動的に取り組める人材であることが証明されます。
+              </p>
+            
+            </div>
+          
+          </div>
+          <div class="bg-primary-white radius-15 w-max h-400 lg_h-500">
+            <img src="images/difference_tmb03_sp.png" alt="" class="w-full">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-16 font-bold">質の高い人のみが所属</p>
+              <img src="images/primary-line-sp.png" alt="" class="w-90p">
+              <p class="text-black text-14 font-medium pr-24 line-height">
+                fwywd では入学試験が設けられており、課題に対する取り組む意欲が低い人は脱落します。
+                一見ハードルが高く感じますが、この施策により「やらないのが当たり前」から「やって当たり前」という向上心の高い文化ができ、学びの質が劇的に高まります。
+                ※ 入学試験以降も最初の１年間は各課題に対する提出期限が設けられています。
+              </p>
+            
+            </div>
+          </div>
+          <div class="bg-primary-white radius-15 w-max h-400 lg_h-500">
+            <img src="images/difference_tmb04_sp.png" alt="" class="w-full">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-16 font-bold">１年間で終わりではない</p>
+              <img src="images/primary-line-sp.png" alt="" class="w-90p">
+              <p class="text-black text-14 font-medium pr-24 line-height">
+                起業に必要な能力やマインドセットを獲得できた１年後からがスタート。
+                能力の高い人同士で新たな学びやプロジェクトをスタートさせることができます。
+              </p>
+            
+            </div>
+          </div>
+          <div class="bg-primary-white radius-15 w-max h-400 lg_h-500">
+            <img src="images/difference_tmb05_sp.png" alt="" class="w-full">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-16 font-bold">仕事を続けながら取り組める</p>
+              <img src="images/primary-line-sp.png" alt="" class="w-90p">
+              <p class="text-black text-14 font-medium pr-24 line-height">
+                起業家精神を学ぶことが目的であり、独立は１つの手段でしかありません。
+                この学びは企業勤めの方の今の仕事へも良い影響が見込めるため、現状の仕事を続けながらを
+                推奨しており、多くの人が参加できる条件です。
+              </p>
+            
+            </div>
+          </div>
+        
+        
+        </div>        
       </div>
     </section>
-    <section class="pricing">
-        <div class="diff_head">
-            <h2>料金</h2>
-            <img src="images/under_line.png" class="under_line">
+    <section>
+      <div class="bg_user_voice px-0 xl_hidden h-2200" >
+      
+        <div class="grid gap-y-10 justify-center">
+          <p class="text-black text-24 font-bold mt-50 text-center">ユーザーの声</p>
+          <img src="images/line_read_sp.png" alt="line" class="m-auto pb-50">
         </div>
-
-        <div class="pricing_content">
-            <div class="item">
-                <img src="images/pricing_img01.png" class="price_img">
-                <h2><span class="gradation">起業家プラン</span></h2>
-                <h3 class="gradation">3,500 円<span>/月(税込)</span></h3>
-                <p>【起業へフルコミット】<br>
-                    自分の事業を作り上げるために<br>
-                    仕事を辞めた上で取り組む。<br>
-                    熱い仲間と共に過ごそう！
-                </p>
-                <ul>
-                    <li><img src="images/icon_check.png" class="check">　仲間との学び</li>
-                    <li><img src="images/icon_check.png" class="check">　課題と解答</li>
-                    <li><img src="images/icon_check.png" class="check">　各種イベント参加権</li>
-                    <li><img src="images/icon_non.png" class="non">　運営側への質問対応</li>
-                    
-                </ul>
-            
+        <div class="grid mt-50  justify-center px-0 gap-y-100 lg_flex lg_wrap  h-1000">
+          <div class="bg_frame1 w-330 h-410  ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-20 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="ml-20">
+              <p class="text-black text-12 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
             </div>
-            <div class="item_main">
-                <img src="images/Subtract.png" class="subtract">
-                <img src="images/pricing_img02.png" class="price_img">
-
-                <h2><span class="gradation">スタンダードプラン</span></h2>
-                <h3 class="gradation">9,900 円<span>/月(税込)</span></h3>
-                <p>【知識のジムへようこそ】<br>
-                    一般的なジムと同じ価格！<br>
-                    仲間とともに課題に取り組んで<br>
-                    解決していけます
-                </p>
-                <ul>
-                    <li><img src="images/icon_check.png" class="check">　仲間との学び</li>
-                    <li><img src="images/icon_check.png" class="check">　課題と解答</li>
-                    <li><img src="images/icon_check.png" class="check">　各種イベント参加権</li>
-                    <li><img src="images/icon_non.png" class="non">　運営側への質問対応</li>
-                    
-                </ul>
+          </div>
+          <div class="bg_frame1 w-330 h-410 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-20 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="ml-20">
+              <p class="text-black text-12 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
             </div>
-            <div class="item">
-                <img src="images/pricing_img03.png" class="price_img">
-                <h2><span class="gradation">フォロープラン</span></h2>
-                <h3 class="gradation">84,700 円<span>/月(税込)</span></h3>
-                <p>【入学試験期間２ヶ月限定】<br>
-                    専属メンターから隔週 90 分<br>
-                    技術などのメンタリング（計 4 回）<br>
-                    * 入学後はスタンダードプランへ移行
-                </p>
-                <ul>
-                    <li><img src="images/icon_check.png" class="check">　仲間との学び</li>
-                    <li><img src="images/icon_check.png" class="check">　課題と解答</li>
-                    <li><img src="images/icon_check.png" class="check">　各種イベント参加権</li>
-                    <li><img src="images/icon_non.png" class="non">　運営側への質問対応</li>
-                    
-                </ul>
+          </div>
+          <div class="bg_frame1 w-330 h-410 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-20 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="ml-20">
+              <p class="text-black text-12 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
             </div>
-            <div class="price_end">
-                <div class="end_content">
-                    <div class="plus_icon">
-                        <img src="images/icon_plus.png" class="plus">
-                    </div>
-                    <div class="end_bg">
-                        <p>入学金  99,800 円（税別）※ 入学試験の通過後</p>
-
-                    </div>
-
-                </div>
+          </div>
+          <div class="bg_frame1 w-330 h-410 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-20 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="ml-20">
+              <p class="text-black text-12 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
             </div>
+          </div>
+        </div>  
+      </div>
+      <div class="lg_user_bg  xl_block  hidden" >
+      
+        <div class="grid gap-y-10 justify-center">
+          <p class="text-black text-32 font-bold mt-50 text-center">ユーザーの声</p>
+          <img src="images/line_read_sp.png" alt="line" class="m-auto pb-50">
         </div>
-        
+        <div class="grid xl_ml-100 mt-50  justify-center px-0 xl_gap-y-50 xl_gap-x-50 lg_flex lg_wrap  h-1000">
+          <div class="lg_user_frame1  lg_w-580 lg_h-373 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-24 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="lg_ml-130 lg_w-280">
+              <p class="text-black text-14 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
+            </div>
+          </div>
+          <div class="lg_user_frame1  lg_w-580 lg_h-373 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-24 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="lg_ml-130 lg_w-280">
+              <p class="text-black text-14 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
+            </div>
+          </div>
+          <div class="lg_user_frame1  lg_w-580 lg_h-373 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-24 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="lg_ml-130 lg_w-280">
+              <p class="text-black text-14 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
+            </div>
+          </div>
+          <div class="lg_user_frame1  lg_w-580 lg_h-373 ">
+            <img src="images/user1_sp.png" alt="user1" class="-mt-34 ml-80">
+            <div class="grid px-20 gap-y-10 mt-30">
+              <p class="text-primary text-24 font-bold text-center"><span class="text-gradation">人生の転機</span>になっています</p>
+              <img src="images/user_line_sp.png" alt="" class="lg_ml-130 lg_w-280">
+              <p class="text-black text-14 font-medium text-center">fwywd １期生　名前 太郎</p>
+              <p class="text-black text-16 font-medium pr-24 line-height">サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+                サンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああサンプルテキストああ
+              </p>
+            </div>
+          </div>
+        </div>  
+      </div>
     </section>
-    <section class="hero2">
-        
-        <div class="hero3_content">
-            <img src="images/hero02_bg.png" class="hero2">
-            <div class="txt">
-                <div class="hero2_head">
-                    <img src="images/logo_white.png" class="hero3logo">
-                </div>
-                <div class="hero3__h2_white">
-                    <h2>起業<span>を</span>目指す人<span>のための</span>最高<span>の</span>環境</h2>
-                </div>
-                    
+    <section>
+      <div class="bg-primary-50 px-20 xl_hidden pb-50">
+        <div class="grid gap-y-10 justify-center">
+          
+          <p class="text-black text-24 font-bold text-center mt-100">料金</p>
+          <img src="images/line_read_sp.png" alt="line" class="m-auto">
+        </div>
+        <div class="grid mt-50  justify-center px-0 gap-y-40 ">
+          <div class="bg-primary-white border_solid w-330 h-570  pt-30">
+            <img src="images/pricing_img01_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center pb-30">
+              <p class="text-gradation text-20 bold">起業家プラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">3,500 <span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                自分の事業を作り上げるために
+                仕事を辞めた上で取り組む。
+                熱い仲間と共に過ごそう！
+              </p>
+              
             </div>
-            <div class="wrap_hero3">
-                <div class="hero3__body">
-                    <p class="left_p">仕事を続けながら挑戦可能</p>
-                    <p class="x"> ×</p>
-                
-                    <p class="left_p">新規事業のすべてが学べる</p>
-                </div>
-                <div class="text_hero3">
-                    <p class="buret">＼ 現在１期で２８人が起業に挑戦中 ／</p>
-                    <img src="images/Component 1.png" class="botton1">
-                </div>    
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          <div class="bg-primary-white border_solid2 w-330 h-570 lg_h-580 pt-30 relative">
+            <img src="images/Subtract_sp.png" alt="" class="w-32 h-52 -top-4 left-80p absolute">
+            <img src="images/pricing_img02_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center pb-30">
+              <p class="text-gradation text-20 bold">スタンダードプラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">9,900<span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                【知識のジムへようこそ】
+                 一般的なジムと同じ価格！
+                仲間とともに課題に取り組んで
+                解決していけます
+              </p>
+              
+            </div>
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          <div class="bg-primary-white border_solid w-330 h-570  pt-30">
+            <img src="images/pricing_img03_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center">
+              <p class="text-gradation text-20 bold">フォロープラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">84,700<span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                【入学試験期間２ヶ月限定】
+                 専属メンターから隔週 90 分
+                 技術などのメンタリング（計 4 回）
+                 * 入学後はスタンダードプランへ移行
+              </p>
+              
+            </div>
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          <img src="images/icon_plus_sp.png" alt="" class="m-auto ">
+          <div class="bg-primary-white w-330 h-66 border_solid grid align-center">
+            <p class="text-12 text-primary font-medium text-center">
+              入学金 100,000 円（税別）※ 入学試験の通過後
+
+            </p>
+          </div>  
+        
+        </div>        
+      </div>
+      <div class="bg_primary-50 hidden xl_block xl_pb-150">
+        <div class="grid gap-y-10 justify-center">
+          
+          <p class="text-black text-32 font-bold text-center mt-100">料金</p>
+          <img src="images/line_read_sp.png" alt="line" class="m-auto">
+        </div>
+        <div class="grid mt-50  justify-center px-0 gap-y-40 xl_flex lg_gap-x-20">
+          <div class="bg-primary-white border_solid w-330 h-570  pt-30">
+            <img src="images/pricing_img01_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center pb-30">
+              <p class="text-gradation text-20 bold">起業家プラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">3,500 <span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                自分の事業を作り上げるために
+                仕事を辞めた上で取り組む。
+                熱い仲間と共に過ごそう！
+              </p>
+              
+            </div>
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          <div class="bg-primary-white border_solid2 w-330 xl_h-580  pt-30 relative">
+            <img src="images/Subtract_sp.png" alt="" class="w-32 h-52 -top-4 left-80p absolute">
+            <img src="images/pricing_img02_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center pb-30">
+              <p class="text-gradation text-20 bold">スタンダードプラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">9,900<span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                【知識のジムへようこそ】
+                 一般的なジムと同じ価格！
+                仲間とともに課題に取り組んで
+                解決していけます
+              </p>
+              
+            </div>
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          <div class="bg-primary-white border_solid w-330 h-570  pt-30">
+            <img src="images/pricing_img03_sp.png" alt="" class="w-200 h-200 ml-60 ">
+            <div class="grid px-20 gap-y-10 mt-30 justify-center text-center">
+              <p class="text-gradation text-20 bold">フォロープラン</p>
+              <div class="flex align-center justify-center">
+                <p class="text-gradation text-32 font-bold">84,700<span class="text-20">円</span>
+                </p>
+                <p class="text-gradation text-14 font-bold">/月(税込)</p>
+              </div>
+              <p class="text-black text-14 w-240 font-medium text-center line-height">【起業へフルコミット】
+                【入学試験期間２ヶ月限定】
+                 専属メンターから隔週 90 分
+                 技術などのメンタリング（計 4 回）
+                 * 入学後はスタンダードプランへ移行
+              </p>
+              
+            </div>
+            <ul class="grid ml-100 w-200 line-height_120p gap-y-2">
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">仲間との学び</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">課題と解答</li>
+              <li><img src="images/icon_check_sp.png" alt="" class="mr-10">各種イベント参加権</li>
+              <li><img src="images/icon_non_sp.png" alt="" class="mr-10">仲間との学び</li>
+            </ul>
+          </div>
+          
+        
+        </div>
+        
+        <div class="grid justify-center">  
+          <div class="w-full mt-30 text-center">
+            <img src="images/icon_plus_sp.png" alt="">
+          </div>
+          <div class="bg-primary-white xl_w-1068 h-66 border_solid grid align-center mt-30">
+              <p class="text-12 text-primary font-medium text-center">
+                入学金 100,000 円（税別）※ 入学試験の通過後
+
+              </p>
+          </div>
+        </div>          
+      </div>  
+    </section>
+    <section>
+      <div class="bg_hero_4 w-full h-550 m-auto md_hidden" >
+        <div class="w-375  text-center">
+          <img src="images/logo_white_sp.png" alt="logo" class="mt-165">
+          <img src="images/hero_txt_title_img_white_sp.png" alt="title" class="mt-20">
+          <div class="flex mt-10 justify-center gap-x-10 pb-30">
+            <p class="text-white text-12 font-bold">仕事を続けながら挑戦可能</p>
+            <p class="text-primary font-bold">X</p>
+            <p class="text-white text-12 font-bold">新規事業のすべてが学べる</p>
+          </div>
+          <div
+              class="flex justify-center bg-gradation text-white font-bold gap-x-10  btn-hover decoration-none px-20 py-15 md_text-18 align-center radius-4 w-280 m-auto"
+            >
+              <img src="images/Polygon .png" />
+              <a href="/">無料説明会へ申し込み</a>
             </div>
         </div>
-            
+
+      </div>
+      <div class="lg_bg_hero_3  w-full h-550  hidden md_block" >
+        <div class="text-center">
+          <div class="grid justify-center">
+            <img src="images/logo_white_sp.png" alt="logo" class="mt-165 md_ml-270 lg_ml-200 lg_w-200">
+            <img src="images/hero_txt_title_img_white_sp.png" alt="title" class="md_mt-30 lg_mt-30 lg_w-620">
+          </div>
+          <div class="flex  justify-center gap-x-10 pb-30 lg_mt-30 md_mt-30">
+            <p class="text-white lg_text-22 font-bold">仕事を続けながら挑戦可能</p>
+            <p class="text-primary lg_text-22 font-bold">X</p>
+            <p class="text-white lg_text-22 font-bold">新規事業のすべてが学べる</p>
+          </div>
+          <p class="lg_text-14 text-white">＼ 現在１期で２８人が起業に挑戦中 ／</p>
+          <div
+              class="flex justify-center bg-gradation text-white font-bold gap-x-10  btn-hover decoration-none px-20 py-15 md_text-18 align-center radius-4 w-280 m-auto"
+            >
+              <img src="images/Polygon .png" />
+              <a href="/">無料説明会へ申し込み</a>
+            </div>
+        </div>
+
+      </div>
     </section>
     <footer>
-        <div class="footer_bg">
-            <div class="footer_head">
-                <div class="fotter_logo">
-                    <img src="images/Logo_footer.png" class="logo_footer">
-                </div>
-                <div class="footer_h2">
-                    <h2>起業を目指す人のための最高の環境</h2>
-                </div>
-                <div class="icon_box">
-                    <div class="icon_item">
-                      <img src="images/facebook.png" class="facebook">  
-                    </div>
-                    <div class="icon_item">
-                        <img src="images/twitter.png" class="twitter">  
-                    </div>
-                    <div class="icon_item">
-                        <img src="images/sns-line 1.png" class="sns-line">  
-                    </div>
-                    <div class="icon_item">
-                        <img src="images/Frame 156.png" class="B!">  
-                    </div>
-                    <div class="icon_item">
-                        <img src="images/Frame 157.png" class="P">  
-                    </div>
-
-                </div>
-            </div>
-            <div class="list">
-                <div class="left_list">
-                    <ul>
-                        <li id="head">About</li>
-                        <li>悩み</li>
-                        <li>解決策</li>
-                        <li>料金</li>
-                    </ul>
-                </div>
-                <div class="center_list">
-                    <ul>
-                        <li id="head">Legal</li>
-                        <li>利用規約</li>
-                        <li>プライバシーポリシー</li>
-                        <li>特記法表記</li>
-                        <li>運営会社</li>
-
-                    </ul>
-                </div>
-                <div class="right_list">
-                    <ul>
-                        <li id="head">Links</li>
-                        <li>メディア</li>
-                        <li>サイトマップ</li>
-                        
-                    </ul>
-                </div>
-            </div>
-
+      <div class="bg-primary-black px-20 lg_hidden">
+        <div>
+          <img src="images/Logo_footer_sp.png" alt="fwywd_logo" class="w-140 mt-50" >
         </div>
-        <div class="copy">
-            <small>&copy; 2022, KIKAGAKU, Inc., All right reserved. </small>
+        <div>
+          <p class="text-white text-16 font-bold mt-20">起業を目指す人のための最高の環境</p>
+          <img src="images/Line_footer_sp .png" alt="white-line" class="w-340">
         </div>
+        <div class="flex w-full mt-20 gap-x-130">
+          <ul class="text-white text-14 font-medium line-height-180p">
+            <li class="font-bold">About</li>
+            <li>悩み</li>
+            <li>解決策</li>
+            <li>料金</li>
+          </ul>
+          <ul class="text-white text-14 font-medium line-height-180p">
+            <li class="font-bold">Legal</li>
+            <li>利用規約</li>
+            <li>プライバシーポリシー</li>
+            <li>特記法表記</li>
+            <li>運営会社</li>
+          </ul>
+        </div>
+        <ul class="text-white text-14 font-medium line-height-180p">
+          <li class="font-bold">Links</li>
+          <li>メディアキット</li>
+          <li>サイトマップ</li>
+        </ul>
+        <div class="grid gap-y-2 mt-30 pb-30">
+          <p class="text-white text-12 text-center">＼SNSでシェア／</p>
+          <div class="flex justify-center gap-x-16">
+            <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+              <img src="images/facebook_sp.png" alt="facebook_logo">
+            </div>
+            <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+              <img src="images/twitter_sp.png" alt="twitter_logo">
+            </div>
+            <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+              <img src="images/sns-line_sp.png" alt="line_logo">
+            </div>
+            <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+              <img src="images/B!_sp.png" alt="B!_logo">
+            </div>
+            <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+              <img src="images/P_sp.png" alt="P_logo">
+            </div>
+          </div>
+        </div>
+        <div class="grid justify-center pb-20">
+          <small class="text-white text-12">&copy;2022, KIKAGAKU, Inc., All right reserved.</small>
+        </div>
+      </div>
+      <div class="bg-primary-black px-20 xl_px-300  hidden lg_block lg_pb-40">
+        
+        <div class="lg_flex lg_w-980 xl_w-max  justify-between lg_p-top-100">
+          <img src="images/Logo_footer_sp.png" alt="fwywd_logo" class="lg_w-150 " >
+          <p class="text-white lg_text-24 font-bold mt-20">起業を目指す人のための最高の環境</p>
+          <div>
+            <p class="text-white font-medium lg_text-24 text-center">＼SNSでシェア／</p>
+            <div class="flex justify-center gap-x-16">
+              <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+                <img src="images/facebook_sp.png" alt="facebook_logo">
+              </div>
+              <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+                <img src="images/twitter_sp.png" alt="twitter_logo">
+              </div>
+              <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+                <img src="images/sns-line_sp.png" alt="line_logo">
+              </div>
+              <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+                <img src="images/B!_sp.png" alt="B!_logo">
+              </div>
+              <div class="grid bg-primary-white w-46 h-46 radius-4 justify-center align-center">
+                <img src="images/P_sp.png" alt="P_logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="images/Line_footer_sp .png" alt="" class="lg_w-full xl_w-980 lg_mt-20">
+          
+        </div>
+        
+        <div class="flex w-full mt-20 gap-x-130">
+          <ul class="text-white lg_text-24 font-medium line-height-180p">
+            <li class="font-bold">About</li>
+            <li>悩み</li>
+            <li>解決策</li>
+           <li>料金</li>
+          </ul>
+          <ul class="text-white lg_text-24 font-medium line-height-180p">
+            <li class="font-bold">Legal</li>
+            <li>利用規約</li>
+            <li>プライバシーポリシー</li>
+           <li>特記法表記</li>
+            <li>運営会社</li>
+          </ul>
+          <ul class="text-white lg_text-24 font-medium line-height-180p">
+            <li class="font-bold">Links</li>
+            <li>メディアキット</li>
+            <li>サイトマップ</li>
+         </ul>
+        </div>
+        
+        <div class="grid justify-center lg_pb-40">
+          <small class="text-white lg_text-24">&copy;2022, KIKAGAKU, Inc., All right reserved.</small>
+        </div>
+      </div>
     </footer>
-
-      
-  
-   
-
-
-    
-    
-    
-</body>
+  </body>
 </html>
