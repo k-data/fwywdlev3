@@ -1,0 +1,141 @@
+/* ============== */
+/* xl: width >= 1280px */
+/* ============== */
+@media screen and (min-width: 1280px) {
+  .xl_max-w-1280 {
+    max-width: 1280px;
+  }
+
+  .xl_m-auto {
+    margin: 0 auto !important;
+  }
+
+  .xl_block {
+    display: block;
+  }
+
+  .xl_flex {
+    display: flex;
+  }
+
+  .xl_hidden {
+    display: none;
+  }
+
+  .xl_wrap {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .xl_justify-between {
+    justify-content: space-between;
+  }
+
+  .xl_gap-x-20 {
+    gap: 0px 20px;
+  }
+
+  .xl_gap-x-50 {
+    gap: 0px 50px;
+  }
+
+  .xl_gap_y-50 {
+    gap: 0px 50px;
+  }
+
+  .xl_hero_bg {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+  }
+
+  .xl_h-full {
+    height: 100%;
+  }
+
+  .xl_max-w-900 {
+    max-width: 900px;
+  }
+
+  .xl_ml-100 {
+    margin-left: 100px;
+  }
+
+  .xl_ml-90p {
+    margin-left: 90%;
+  }
+
+  .xl_ml-120 {
+    margin-left: 120px;
+  }
+
+  .xl_ml-300 {
+    margin-left: 300px;
+  }
+
+  .xl-mx-auto {
+    margin: 0 auto !important;
+  }
+
+  .xl_h-400 {
+    height: 400px;
+  }
+
+  .xl_h-580 {
+    height: 580px;
+  }
+
+  .xl_w-750 {
+    width: 750px;
+  }
+
+  .xl_w-600 {
+    width: 600px;
+  }
+
+  .xl_w-980 {
+    width: 980px;
+  }
+
+  .xl_w-1068 {
+    width: 1068px;
+  }
+
+  .xl_w-1324 {
+    width: 1324px;
+  }
+
+  .xl_w-max {
+    max-width: 1920px;
+  }
+
+  .xl_w-max-1440 {
+    max-width: 1440px;
+  }
+
+  .xl_pb-150 {
+    padding-bottom: 150px;
+  }
+
+  .xl_px-300 {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .xl_px-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .xl_py-100 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .xl_left-60p {
+    left: 60%;
+  }
+
+  .xl_text-24 {
+    font-size: 24px;
+  }
+}
